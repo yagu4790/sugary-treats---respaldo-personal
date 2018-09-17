@@ -1,0 +1,140 @@
+
+
+a{
+	outline:0 !important;	
+}
+.navbar-light {
+	background-color:transparent!important;
+	font-size:14px;	
+}
+.navbar-light .navbar-nav .nav-link{
+	color:#fff;	
+	font-weight:600;
+	text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color:#e2717e;
+	border-bottom: #ffffbd;
+	border-bottom-style:double;
+}
+.navbar-light .navbar-nav .active .nav-link{
+	background-color:transparent;
+	color:#e2717e;
+	
+}
+.navbar-light .navbar-nav .active .nav-link:hover{
+	background-color:transparent;
+	color:#e2717e;
+	
+}
+
+
+
+.navbar-light .navbar-nav .show > .nav-link{
+	color: #fff;	
+}
+.navbar-light .navbar-nav .show > .nav-link:focus,
+.navbar-light .navbar-nav .show > .nav-link:hover{
+    color: #fff;
+    background-color: transparent;
+}
+
+.dropdown-menu{
+	background-color:#e2717e;
+	border:0;
+}
+.dropdown-menu .dropdown-item{
+	font-weight:300!important;	
+}
+.navbar-light .navbar-nav .show .dropdown-menu .dropdown-item{
+	color:#fff;
+}
+.navbar-light .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-light .navbar-nav .show .dropdown-menu .dropdown-itema:focus {
+  color: #ff5518;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.navbar-light .navbar-toggler{
+	background-color: #e2717e;
+
+}
+.navbar-light .navbar-toggler:hover,
+.navbar-light .navbar-toggler:focus
+{
+    background-color: #ffffbd;
+	cursor:pointer;
+}
+.navbar-light .navbar-toggler-icon {
+    background-color: transparent;
+	
+}
+
+.navbar-light .navbar-toggle:hover .icon-bar {
+    background-color: #8B2588;
+	cursor:pointer;
+}
+.navbar-light .navbar-brand {
+	color:#363636;		
+	height: auto;
+}
+.navbar-light .navbar-brand:hover {
+ 	color:#1F81BF;
+}
+.navbar-light .navbar-brand img{
+	max-width: 100px;
+}
+
+
+
+.carousel-caption{
+	/*width: 100%;
+	height: 100%;
+	top: 25%;	
+	bottom:25%;
+	left: inherit;
+	right: inherit;
+	display: table;*/
+	top:50%;
+	left: 50%;
+	bottom: inherit;
+	transform: translate(-50%,-50%);
+/*	font-family: */
+}
+.caption-center{
+	/*display: table-cell;
+	vertical-align: middle;*/
+}
+
+
+
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
+
+
+/*
+.navbar{
+	
+	margin-bottom: -10px;
+}
+*/
+
+
+/*
+.ml-auto{
+	
+	margin-left: 400px;
+}
+*/
+
+
+
+
+
+
+

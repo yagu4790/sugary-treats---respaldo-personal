@@ -1,0 +1,279 @@
+@font-face{
+	font-family: master_of_break;
+	font-family:KaushanScript-Regular;
+	src: url(../fonts/master_of_break.otf);
+	src:url(../fonts/KaushanScript-Regular.otf);
+
+	
+}
+
+body{
+	
+	background-color: #381610;
+	margin-top: 0;
+	font-family:Segoe UI;
+}
+
+header{
+	
+	background-color: #72272e;
+/*
+	position:fixed;
+	z-index: 18;
+*/
+	width:100%;
+	 box-shadow: inset 1px 1px 10px #000;
+		
+
+}
+header img{
+	
+/*	padding: 2px 0;*/
+	margin-top: 5px;
+	max-height: 64px;
+}
+
+
+#sec-banner{
+	
+	background-image:url(../img/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 900px;
+	text-align: center;
+	padding:300px 0;
+}
+
+.bar-rosa{
+	
+	background-color: #e2717e;
+	background-size: cover;
+	height:10px;
+	margin-bottom:0px;
+	
+}
+
+.tit-banner{
+	color:#fff;
+	font-family:master_of_break;
+	font-size: 80px;
+	
+	margin-bottom: 15px;
+	
+	
+}
+
+#sec-banner p{
+	
+	color: #fff;
+}
+
+
+
+header ul li{
+	color:#fff;
+	display: inline-block;
+	margin-right:20px;
+text-align: center;
+}
+
+#sec-productitos{
+/*background-color: #fff;*/
+	padding:20px;
+	text-align: center;
+	
+}
+
+#sec-productitos .marco{
+	
+/*	background-color: #000000;*/
+	border:1px solid #fbf7bf;
+	padding: 20px 20px;
+	
+}
+
+.titulo{
+	
+	color:#e2717e;
+	font-size: 20px;
+	
+}
+
+#sec-productitos .tit-banner{
+	color:#fff;
+	font-family:helvetica;
+	font-size: 30px;
+	margin-bottom: 20px;
+	
+	
+}
+
+
+#sec-productitos .titulo{
+	
+	color:#e2717e;
+	margin-top: 5px;
+	text-transform: uppercase;
+	
+}
+
+
+
+
+#sec-pie{
+	background-image: url(../img/sec-pie.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align:center;
+	color: #FFFFFF;
+	padding: 70px 0px;
+	height: 800px;
+	
+	
+	
+		
+}
+
+
+
+
+
+
+.btn-naranja{
+	background-color: #E2717E;
+	color: #fff;
+	border-radius: 5px;
+	border: 0;
+	text-transform: uppercase;
+	padding: 15px 30px 20px 30px;
+	font-weight: 600;
+}
+
+.cuadro-blanco{
+	background-color:rgba(250,250,250,0.80);
+	text-align: center;
+	padding: 30px 0;
+	height:650px;
+	width: 250px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+
+	
+}
+
+#sec-pie h2{
+	font-size: 40px;
+	font-weight: 800;
+	padding: 2px 0;
+	color: #72272e;
+	line-height:40px;	
+	font-family: KaushanScript-Regular;
+	
+}
+
+#sec-pie p{	
+	color: #72272E;
+	padding: 10px;
+	text-align: center;	
+	font-size: 14px;
+	
+	
+}
+
+
+.nombre{
+	color: #fff;
+	font-weight: 600;
+}
+
+footer{
+	background-color: #72272E;
+	text-align: center;
+	padding: 5px 0;
+}
+
+
+
+
+
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color:#4E4C4C;
+	
+}
+
+
+.carousel-indicators .active {
+  
+    background-color: #e2717e;
+	
+}
+
+#carousel-repost p{
+	
+	font-size: 20px;
+	
+}
+
+
+
+#sec-productitos .overlay{
+	
+	position:relative;
+}
+
+
+
+
+#sec-productitos .bg-overlay{
+	
+	position:absolute;
+	width:100%;
+	height: 100%;
+	top:0;
+	left:0;
+	background-color:rgba(243,187,188,0.30);
+    opacity: 0;
+	transition: all ease-in-out .5s;
+	
+}
+
+
+
+#sec-productitos .bg-overlay:hover{
+	
+	opacity: 1;
+	transition: all ease-in-out 0.5s;
+	
+
+}
+
+
+#map{
+	width:auto;
+	min-height: 300px;
+	margin:10px 0px 20px 0px;
+	
+	
+}
+
+#sec-contactos h1{
+	text-align: center;
+	
+	color: #FFFFFF;
+	height: 70px;
+	margin: 60;
+	padding: 15px;
+	
+	
+}
+
+#sec-iconos{
+	text-align: center;
+	padding: 20px;
+	
+	
+}
